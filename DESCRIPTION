@@ -1,0 +1,18 @@
+Package: PANScore
+Type: Package
+Title: This package is used for calculating the PANoptosis related risk score to evaluate the PANoptosis status in bulk level 
+Version: 0.1.0
+Author: Wei Zhang
+Maintainer: Wei Zhang <2204170416@csu.edu.cn>
+Description: This package contains the 19 PANoptosis signatur genes and corresponding coefficient.
+            The HOVON dataset is also included for  a demonstration. More about what it does, 
+                please see repository for details (https://github.com/zwxiangya/PANScore). 
+License: MIT + file LICENSE
+Encoding: UTF-8
+InstallableEverywhere: yes
+LazyData: true
+Depends: 
+    R (>= 2.10) , tidyverse
+Imports: 
+    dplyr (>= 1.0)
+RoxygenNote: 7.2.3
